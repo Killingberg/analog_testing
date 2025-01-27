@@ -1,9 +1,9 @@
-* Measure OTA_temp_to_current
+* Measure JNW_OTA
 .control
 
 load {cicname}.raw
 
 echo "MEAS_START"
-
+let IN = 3
 echo "MEAS_END"
 .endc

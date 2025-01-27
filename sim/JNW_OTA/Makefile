@@ -7,8 +7,8 @@ all: typical etc mc summary
 TB=tran
 VIEW=Sch
 #VIEW=Lay
-CELL=OTA_temp_to_current
-LIB =JNW_TEMP_AFFECTED_CURRENT_SKY130A
+CELL=JNW_OTA
+LIB =JNW_OTA_SKY130A
 OPT=
 
 include ../../tech/make/sim.make

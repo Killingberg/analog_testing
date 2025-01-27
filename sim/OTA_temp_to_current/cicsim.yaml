@@ -1,9 +1,0 @@
-options:
-  useTmpDir: False
-  sha: True
-corner:
-  Lay: ''
-  Sch: ''
-ngspice:
-  library: JNW_TEMP_AFFECTED_CURRENT_SKY130A
-  cell: OTA_temp_to_current

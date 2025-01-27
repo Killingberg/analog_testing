@@ -11,10 +11,10 @@
 
 
 PREFIX=
-LIB=JNW_TEMP_AFFECTED_CURRENT_SKY130A
-CELL=JNW_TEMP_AFFECTED_CURRENT
+LIB=JNW_OTA
+CELL=JNW_OTA
 
 #- Provide cells you want to check for the lvsall drcall commands
-CELLS = JNW_TEMP_AFFECTED_CURRENT
+CELLS = JNW_OTA
 
 include ../tech/make/core.make
